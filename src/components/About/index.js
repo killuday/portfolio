@@ -27,13 +27,13 @@ const About=()=> {
                      />
                 </h1>
                 <p>I'm very ambitious MERN developer looking for a role in 
-                    established IT company with the oppertunity to work with 
-                    the latest technologies on challange and diverse projects.
+                    established IT company with the opportunity to work with 
+                    the latest technologies on challenge and diverse projects.
                 </p>
                 <p>I'm quietly confident , naturally curious, and perpetually
-                    working on improving my chops one design problem at one time
+                    working on improving my skills one design problem at one time
                 </p>
-                <p>If i need to define me in one sentence that would be a responsible
+                <p>If I need to define me in one sentence that would be a responsible
                    person,a book reader,photography enthusiast and tech-obsessed!!!
                      </p>
 

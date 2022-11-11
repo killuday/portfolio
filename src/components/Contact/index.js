@@ -49,8 +49,8 @@ const Contact=()=> {
                 idx={15}/>
             </h1>
             <p>
-                I am intrested in freelance oppertunities - any kind 
-                of project.However,if you have other request or question,
+                I am intrested in any kind of job oppertunities - according to my profile
+                .However,if you have other request or question,
                 don't hesitate to contact me using below form either.
             </p>
             <div className='contact-form'>
