@@ -93,7 +93,7 @@ const Contact=()=> {
             <br/>
             India
             <br/>
-            Pungh,Sundernagar <br/>
+            Punghru,Sundernagar <br/>
             Mandi,Himachal Pradesh<br/>
             <span>bhanusharm122@gmail.com</span>
         </div>
