@@ -57,7 +57,7 @@ const Contact=()=> {
         .then(
             ()=>{
                 success()
-                window.location.reload(false)
+ 
             },
             ()=>{
                 error()
