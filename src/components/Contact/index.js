@@ -4,6 +4,34 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import emailjs from '@emailjs/browser'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import Swal from 'sweetalert2'
+import 'sweetalert2/src/sweetalert2.scss'
+
+const success = () => {
+      Swal.fire({
+          title: 'Email Sent Successfully!',
+          width: 400,
+          padding: '3em',
+          color: '#716add',
+          background: '#fff url("	https://sweetalert2.github.io/images/trees.png")',
+          backdrop: `
+            rgba(0,0,123,0.4)
+            url("https://sweetalert2.github.io/images/nyan-cat.gif")
+            left top
+            no-repeat
+          `
+        })
+}
+
+const error=()=>{
+
+    Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Something went wrong!',
+        footer: '<a href="">Why do I have this issue?</a>'
+      })
+}
 
 const Contact=()=> {
         const [letterClass, setLetterClass]= useState('text-animate')
@@ -28,11 +56,11 @@ const Contact=()=> {
 
         .then(
             ()=>{
-                alert('message successfully sent!')
+                success()
                 window.location.reload(false)
             },
             ()=>{
-                alert('failed to send the message! please try again')
+                error()
             }
         )
         
